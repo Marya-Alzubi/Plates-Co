@@ -14,7 +14,7 @@ Buy one red plate, get the second half price.
 - download the repository
 - open index.html file
 - and you are done!
-   --------------------------- OR YOU CAN use "http://127.0.0.1" port -------------------------
+   --------------------------- OR YOU CAN use the local port -------------------------
 - download the repository  
 - open your visual studio code, then open the folder
 - make sure you have downloaded "Live Server" extension "it enables http://127.0.0.1 port"
