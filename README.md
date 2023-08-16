@@ -2,6 +2,11 @@
 Plates Co are the leading provider of made up dinner plates and they’ve contracted you to
 create a proof of concept for their new sales system.
 
+*They sell three products:
+Red Plate: R01 $32.95
+Green Plate: G01 $24.95
+Blue Plate: B01 $7.95
+
 *Deliveray Cost:
 Orders under $50, delivery cost: $4.95. 
 Orders under $90, delivery costs $2.95. 
