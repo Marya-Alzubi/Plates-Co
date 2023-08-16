@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./cart.css" />
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" class="logo">Plates Co</a>
+      <a class="cart-button" href="../index.html">Products Catalogue</a>
+    </header>
+
+    <main>
+      <div class="product-list">
+        <!-- rendering the cart list from cart.js file -->
+      </div>
+      <div class="total-prices">
+        <p>
+          Delivery Fees:
+          <span id="delivery-fees">
+            <!-- calculating the value from getDeliveryFees in cart.js -->
+          </span>
+        </p>
+        <p>
+          Total Cart Price <span>(with delivery fees)</span>:
+          <span id="cart-total">
+            <!-- calculating the value from getTotalCartPrice in cart.js -->
+          </span>
+        </p>
+      </div>
+    </main>
+  </body>
+  <script type="text/javascript" src="../script/constants.js"></script>
+  <script type="text/javascript" src="../script/offers.js"></script>
+  <script type="text/javascript" src="../script/cart.js"></script>
+</html>

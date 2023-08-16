@@ -1,0 +1,144 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cart-icon {
+  margin-left: 1rem;
+}
+
+.cart-button {
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+}
+
+#cart-counter {
+  position: absolute;
+  top: -0.6rem;
+  right: -0.6rem;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8rem;
+  line-height: 1;
+}
+/* Product card styles */
+main {
+  padding: 5rem 0.5rem;
+  padding-bottom: 0;
+}
+h1 {
+  text-align: center;
+}
+.cards-container {
+  padding: 5rem 7rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+.sale-tag {
+  background-color: tomato;
+  color: white;
+  padding: 0.25rem 1rem;
+  margin-top: 0.7rem;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  text-align: center;
+  visibility: hidden;
+}
+.show {
+  visibility: visible;
+}
+.product-card {
+  position: relative; /* Added for positioning the sale tag */
+  width: 100%;
+  border: 0.05rem solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+.product-card h2 {
+  text-align: center;
+}
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: solid 0.1rem rgba(0, 0, 0, 0.1);
+}
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.price {
+  font-weight: bold;
+}
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-input {
+  width: 2rem;
+  text-align: center;
+  margin: 0 0.3rem;
+}
+
+/* Cart total styles */
+.add-to-cart {
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.3rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+    padding: 2rem 4rem;
+  }
+  .product-card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,143 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cart-button {
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* Product list styles */
+.product-list {
+  max-width: 70%;
+  margin: 2rem auto;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  border: 0.05rem solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+  max-width: 10%;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.product-name {
+  font-weight: bold;
+}
+.price,
+.product-total {
+  font-weight: bold;
+  text-align: center;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-button {
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.quantity-input {
+  width: 2rem;
+  text-align: center;
+  margin: 0 0.3rem;
+}
+
+/* Cart total styles */
+.total-prices {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.total-prices > p:first-child {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.total-prices > p:last-child > span:first-child {
+  font-size: 1.3rem;
+}
+.before-offer-price {
+  text-align: center;
+  text-decoration: line-through;
+  text-decoration-color: tomato;
+}
+.offer {
+  color: tomato;
+  margin: auto 0;
+  text-align: center;
+  visibility: hidden;
+}
+.offer > span {
+  font-size: 0.8rem;
+  display: block;
+}
+.show {
+  visibility: visible;
+}
+
+@media (max-width: 768px) {
+  .product-item,
+  .product-details {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .product-item img {
+    max-width: 25%;
+    margin-right: 0;
+  }
+}
