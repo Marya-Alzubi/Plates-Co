@@ -12,8 +12,13 @@ Buy one red plate, get the second half price.
 
 ##How to open the project:
 - download the repository
-- open index.html
+- open index.html file
 - and you are done!
+   --------------------------- OR YOU CAN use "http://127.0.0.1" port -------------------------
+- download the repository  
+- open your visual studio code, then open the folder
+- make sure you have downloaded "Live Server" extension "it enables http://127.0.0.1 port"
+- double click on anywhere in index.html file, a list will be shown ,,, choose "open with live server" option.
 
 ###The Products Catalogue Screen:
 <img width="1512" alt="Screenshot 2023-08-16 at 19 44 42" src="https://github.com/Marya-Alzubi/Plates-Co/assets/71829413/db4c34b0-9b11-47a2-9c70-0486840f0779">
