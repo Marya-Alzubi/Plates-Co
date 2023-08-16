@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <div class="sale-tag ${
             BUY_ONE_GET_ONE_FREE_PRODUCTS.includes(product.code) && `show`
           } ">Buy One Get the second half price!</div>
-          <img src=${product.image} alt=${product.code} />
+          <img src="./${product.image}" alt=${product.code} />
           <div class="product-details">
             <p class="price">${product.price}</p>
             <div class="quantity-control">

@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
   cardsContainer.innerHTML = cart
     .map((product) => {
       return `  <div class="product-item" id='${product.code}_card' >
-          <img src=${product.image} alt=${product.code} />
+          <img src="../${product.image}" alt=${product.code} />
           <div class="product-details">
             <p class="product-name">${product.code}</p>
             <p class="price">${product.price}</p>

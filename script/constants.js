@@ -14,17 +14,17 @@ const PRODUCTS = [
   {
     code: "R01",
     price: PRODUCT_COST.R01,
-    image: "../images/R01.jpeg",
+    image: "images/R01.jpeg",
   },
   {
     code: "G01",
     price: PRODUCT_COST.G01,
-    image: "../images/G01.jpeg",
+    image: "images/G01.jpeg",
   },
   {
     code: "B01",
     price: PRODUCT_COST.B01,
-    image: "../images/B01.jpeg",
+    image: "images/B01.jpeg",
   },
 ];
 
