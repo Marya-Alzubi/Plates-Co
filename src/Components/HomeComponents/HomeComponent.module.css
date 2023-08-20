@@ -1,0 +1,16 @@
+.homeContainer > h1 {
+  text-align: center;
+}
+.homeContainer > .cardsContainer {
+  padding: 5rem 7rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+  .cardsContainer {
+    flex-direction: column;
+    padding: 2rem 4rem;
+  }
+}

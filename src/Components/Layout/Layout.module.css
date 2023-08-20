@@ -1,0 +1,64 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cartIcon {
+  margin-left: 1rem;
+}
+
+.cartButton {
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+}
+
+.cartCounter {
+  position: absolute;
+  top: -0.6rem;
+  right: -0.6rem;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+main {
+  padding: 5rem 0.5rem;
+  padding-bottom: 0;
+}

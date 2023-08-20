@@ -1,0 +1,17 @@
+.productList {
+  max-width: 70%;
+  margin: 2rem auto;
+}
+.totalPrices {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.totalPrices > p:first-child {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.totalPrices > p:last-child > span:first-child {
+  font-size: 1.3rem;
+}

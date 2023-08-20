@@ -1,35 +1,70 @@
-# Plates-Co
-Plates Co are the leading provider of made up dinner plates and they’ve contracted you to
-create a proof of concept for their new sales system.
+# Getting Started with Create React App
 
-*They sell three products:
-Red Plate: R01 $32.95
-Green Plate: G01 $24.95
-Blue Plate: B01 $7.95
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-*Deliveray Cost:
-Orders under $50, delivery cost: $4.95. 
-Orders under $90, delivery costs $2.95. 
-Orders of $90 or more have free delivery.
+## Available Scripts
 
-*Special offer:
-Buy one red plate, get the second half price.
+In the project directory, you can run:
 
-## How to open the project:
-- download the repository
-- open index.html file
-- and you are done!
-- --------------------------- OR YOU CAN use the local port -------------------------
-- download the repository  
-- open your visual studio code, then open the folder
-- make sure you have downloaded "Live Server" extension "it enables http://127.0.0.1 port"
-- double click on anywhere in index.html file, a list will be shown ,,, choose "open with live server" option.
+### `npm start`
 
-### The Products Catalogue Screen:
-<img width="1512" alt="Screenshot 2023-08-16 at 19 44 42" src="https://github.com/Marya-Alzubi/Plates-Co/assets/71829413/db4c34b0-9b11-47a2-9c70-0486840f0779">
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Some screens for the cart:
-<img width="1512" alt="Screenshot 2023-08-16 at 19 44 49" src="https://github.com/Marya-Alzubi/Plates-Co/assets/71829413/cd39c0e8-b034-4f31-b7ae-2349cb5da4af">
-<img width="1512" alt="Screenshot 2023-08-16 at 19 45 06" src="https://github.com/Marya-Alzubi/Plates-Co/assets/71829413/1196c8ea-ebf0-424a-a90d-ee65a805e23a">
-<img width="1512" alt="Screenshot 2023-08-16 at 19 45 32" src="https://github.com/Marya-Alzubi/Plates-Co/assets/71829413/77b180cf-8e8d-4eaf-a5bb-bf866e1ba844">
-<img width="1512" alt="Screenshot 2023-08-16 at 19 45 48" src="https://github.com/Marya-Alzubi/Plates-Co/assets/71829413/63222c21-fe83-4447-97c1-8d66883eb5a1">
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

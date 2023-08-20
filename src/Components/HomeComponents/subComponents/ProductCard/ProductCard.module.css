@@ -1,0 +1,66 @@
+.saleTag {
+  background-color: tomato;
+  color: white;
+  padding: 0.25rem 1rem;
+  margin-top: 0.7rem;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  text-align: center;
+  visibility: hidden;
+}
+.show {
+  visibility: visible;
+}
+.productCardContainer {
+  position: relative; /* Added for positioning the sale tag */
+  width: 100%;
+  border: 0.05rem solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+.productCardContainer h2 {
+  text-align: center;
+}
+.productCardContainer img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: solid 0.1rem rgba(0, 0, 0, 0.1);
+}
+.productDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.price {
+  font-weight: bold;
+}
+.quantityControl {
+  display: flex;
+  align-items: center;
+}
+
+.quantityInput {
+  width: 2rem;
+  text-align: center;
+  margin: 0 0.3rem;
+}
+
+/* Cart total styles */
+.addToCart {
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.3rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .productCardContainer {
+    width: 100%;
+  }
+}
