@@ -10,7 +10,7 @@ Plates Co are the leading provider of made up dinner plates and they’ve contra
 ## How to open the project 
 1. **clone the repository on your local desk then open the project directory**
 ```
-git clone [https://github.com/Marya-Alzubi/Syarah_Yii2_PHP_OrderManagementSystem_task](https://github.com/Marya-Alzubi/Plates-Co)
+git clone https://github.com/Marya-Alzubi/Plates-Co
 ```
 ```
 cd Plates-Co
